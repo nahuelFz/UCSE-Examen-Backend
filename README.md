@@ -1,5 +1,4 @@
-
-# Examen Final: API CRUD de Trailers con Express y MongoDB 🎬
+# Examen: API CRUD de Trailers con Express y MongoDB 🎬
 
 ## Descripción del Proyecto 📋
 
