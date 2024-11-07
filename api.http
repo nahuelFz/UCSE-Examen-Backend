@@ -1,13 +1,3 @@
-# Obtener todos los trailers
-GET http://localhost:3000/api/trailers
-Accept: application/json
-
-###
-
-# Obtener un trailer por ID
-GET http://localhost:3000/api/trailers/1
-Accept: application/json
-
 ###
 
 # Filtrar trailers por género
@@ -45,21 +35,6 @@ Content-Type: application/json
     "reparto": ["Actor 1", "Actor 2"],
     "resumen": "Este es un trailer de ejemplo",
     "trailer": "https://www.example.com/trailer"
-}
-
-###
-
-# Actualizar un trailer existente
-PUT http://localhost:3000/api/trailers/1
-Content-Type: application/json
-
-{
-    "titulo": "The Crown - Actualizado",
-    "categoria": "Serie",
-    "genero": ["Drama", "Suceso Real"],
-    "reparto": ["Claire Fox", "Olivia Colman", "Matt Smith"],
-    "resumen": "Actualización de la descripción del trailer",
-    "trailer": "https://www.example.com/trailer-actualizado"
 }
 
 ###
