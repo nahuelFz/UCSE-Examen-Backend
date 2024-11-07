@@ -48,26 +48,14 @@ Utiliza el archivo `trailers.json` para definir el modelo en MongoDB con **Mongo
 
 ## Funcionalidades del CRUD 🚀
 
-La API deberá incluir las siguientes operaciones básicas:
+La API deberá incluir las siguientes operaciones:
 
-1. **Obtener todos los trailers**.
-2. **Obtener un trailer por `id`**.
-3. **Filtrar trailers** por género.
-4. **Buscar trailers** por actor.
-5. **Buscar trailers** por palabras clave (búsqueda avanzada).
-6. **Agregar un nuevo trailer**.
-7. **Actualizar un trailer existente**.
-8. **Eliminar un trailer**.
-9. **Manejo de Errores**.
-
-### Rutas Adicionales 🔍
-
-Para cumplir con los requisitos de funcionalidad avanzada, agrega los siguientes endpoints:
-
-- Filtra trailers según uno o varios géneros.
-- Filtra trailers por nombre de actor.
-- Busca trailers según palabras clave, como el título o categoría.
-- Devolver una lista de series que tienen más de X temporadas.
+1. **Filtrar trailers** por uno o varios géneros.
+2. **Buscar trailers** por actor.
+3. **Buscar trailers** por palabras clave (búsqueda avanzada).
+4. **Buscar Trailers** de series que tienen más de X temporadas.
+5. **Agregar un nuevo trailer**.
+6. **Eliminar un trailer**.
 
 ## Estructura del Repositorio 🗂️
 
