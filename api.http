@@ -1,0 +1,75 @@
+# Obtener todos los trailers
+GET http://localhost:3000/api/trailers
+Accept: application/json
+
+###
+
+# Obtener un trailer por ID
+GET http://localhost:3000/api/trailers/1
+Accept: application/json
+
+###
+
+# Filtrar trailers por género
+GET http://localhost:3000/api/trailers?genero=Drama
+Accept: application/json
+
+###
+
+# Buscar trailers por actor
+GET http://localhost:3000/api/trailers?actor=Helena Bonham Carter
+Accept: application/json
+
+###
+
+# Búsqueda avanzada por palabras clave
+GET http://localhost:3000/api/trailers?busqueda=The Crown
+Accept: application/json
+
+###
+
+# Obtener series con más de X temporadas
+GET http://localhost:3000/api/trailers?minTemporadas=3
+Accept: application/json
+
+###
+
+# Crear un nuevo trailer
+POST http://localhost:3000/api/trailers
+Content-Type: application/json
+
+{
+    "titulo": "Nuevo Trailer",
+    "categoria": "Serie",
+    "genero": ["Acción", "Aventura"],
+    "reparto": ["Actor 1", "Actor 2"],
+    "resumen": "Este es un trailer de ejemplo",
+    "trailer": "https://www.example.com/trailer"
+}
+
+###
+
+# Actualizar un trailer existente
+PUT http://localhost:3000/api/trailers/1
+Content-Type: application/json
+
+{
+    "titulo": "The Crown - Actualizado",
+    "categoria": "Serie",
+    "genero": ["Drama", "Suceso Real"],
+    "reparto": ["Claire Fox", "Olivia Colman", "Matt Smith"],
+    "resumen": "Actualización de la descripción del trailer",
+    "trailer": "https://www.example.com/trailer-actualizado"
+}
+
+###
+
+# Eliminar un trailer
+DELETE http://localhost:3000/api/trailers/1
+Accept: application/json
+
+###
+
+# Manejo de error - Trailer no encontrado
+GET http://localhost:3000/api/trailers/9999
+Accept: application/json
