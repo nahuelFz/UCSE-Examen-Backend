@@ -52,10 +52,9 @@ La API deberá incluir las siguientes operaciones:
 
 1. **Filtrar trailers** por uno o varios géneros.
 2. **Buscar trailers** por actor.
-3. **Buscar trailers** por palabras clave (búsqueda avanzada).
-4. **Buscar Trailers** de series que tienen más de X temporadas.
-5. **Agregar un nuevo trailer**.
-6. **Eliminar un trailer**.
+3. **Buscar Trailers** de series que tienen más de X temporadas.
+4. **Agregar un nuevo trailer**.
+5. **Eliminar un trailer**.
 
 ## Estructura del Repositorio 🗂️
 
@@ -85,13 +84,14 @@ La API deberá incluir las siguientes operaciones:
 
 ## Instrucciones de Entrega 🚀
 
-1. **Clona** el repositorio desde [aquí](https://github.com/FabioDrizZt/UCSE-Examen-Backend).
+1. **Forkea** el repositorio desde [aquí](https://github.com/FabioDrizZt/UCSE-Examen-Backend).
+2. **Clona** el repositorio desde [aquí](https://github.com/[Tu Usuario]/UCSE-Examen-Backend).
    ```bash
-   git clone https://github.com/FabioDrizZt/UCSE-Examen-Backend.git
+   git clone https://github.com/[Tu Usuario]/UCSE-Examen-Backend.git
    ```
-2. Desarrolla las funcionalidades requeridas en el repositorio clonado.
-3. **Documenta** todos los endpoints en el archivo `README.md`.
-4. **Sube** tus cambios y compártelos en el repositorio.
+3. Desarrolla las funcionalidades requeridas en el repositorio clonado.
+4. **Documenta** todos los endpoints en el archivo `README.md`.
+5. **Sube** tus cambios y compártelos en el repositorio.
    ```bash
    git add .
    git commit -m "Implementación de funcionalidades y documentación"
