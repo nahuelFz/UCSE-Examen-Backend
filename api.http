@@ -12,12 +12,6 @@ Accept: application/json
 
 ###
 
-# Búsqueda avanzada por palabras clave
-GET http://localhost:3000/api/trailers?busqueda=The Crown
-Accept: application/json
-
-###
-
 # Obtener series con más de X temporadas
 GET http://localhost:3000/api/trailers?minTemporadas=3
 Accept: application/json
