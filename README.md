@@ -3,12 +3,12 @@
 
 ## Descripción del Proyecto 📋
 
-En este examen final, deberás desarrollar una **API RESTful** usando **Express** y **MongoDB** para gestionar un catálogo de trailers de series y películas. La API permitirá realizar las operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar) sobre una colección de trailers. 
+En este examen, deberás desarrollar una **API RESTful** usando **Express** y **MongoDB** para gestionar un catálogo de trailers de series y películas. La API permitirá realizar operaciones de Crear, Leer, Eliminar sobre una colección de trailers. 
 
 Además del CRUD básico, se requerirán endpoints adicionales para filtrar resultados por género, buscar trailers por actor, y realizar búsquedas avanzadas por palabras clave.
 
 > **Instrucciones**: Al finalizar, deberás completar este README.md con la documentación de cada endpoint implementado. Incluye la siguiente información:
-> - Método HTTP (GET, POST, PUT, DELETE).
+> - Método HTTP (GET, POST, DELETE).
 > - Ruta del endpoint.
 > - Descripción de parámetros o query params.
 > - Ejemplo del cuerpo de solicitud (si aplica).
