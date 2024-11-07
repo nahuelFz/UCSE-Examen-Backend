@@ -85,9 +85,9 @@ La API deberá incluir las siguientes operaciones:
 ## Instrucciones de Entrega 🚀
 
 1. **Forkea** el repositorio desde [aquí](https://github.com/FabioDrizZt/UCSE-Examen-Backend).
-2. **Clona** el repositorio desde [aquí](https://github.com/[Tu Usuario]/UCSE-Examen-Backend).
+2. **Clona** el repositorio desde [aquí](https://github.com/Tu-Usuario/UCSE-Examen-Backend).
    ```bash
-   git clone https://github.com/[Tu Usuario]/UCSE-Examen-Backend.git
+   git clone https://github.com/Tu-Usuario/UCSE-Examen-Backend.git
    ```
 3. Desarrolla las funcionalidades requeridas en el repositorio clonado.
 4. **Documenta** todos los endpoints en el archivo `README.md`.
