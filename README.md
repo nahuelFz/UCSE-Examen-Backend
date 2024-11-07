@@ -64,10 +64,11 @@ La API deberá incluir las siguientes operaciones básicas:
 
 Para cumplir con los requisitos de funcionalidad avanzada, agrega los siguientes endpoints:
 
-- `GET /trailers?genero=Drama,Ficción`: Filtra trailers según uno o varios géneros.
-- `GET /trailers?actor=Pedro Pascal`: Filtra trailers por nombre de actor.
-- `GET /trailers/buscar?q=The Mandalorian`: Busca trailers según palabras clave, como el título o categoría.
-  
+- Filtra trailers según uno o varios géneros.
+- Filtra trailers por nombre de actor.
+- Busca trailers según palabras clave, como el título o categoría.
+- Devolver una lista de series que tienen más de X temporadas.
+
 ## Estructura del Repositorio 🗂️
 
 ```plaintext
@@ -108,7 +109,3 @@ Para cumplir con los requisitos de funcionalidad avanzada, agrega los siguientes
    git commit -m "Implementación de funcionalidades y documentación"
    git push origin main
    ```
-
-### Endpoint adicional
-
-- `GET /trailers/series/mas-de-2-temporadas`: Devuelve una lista de series que tienen más de 2 temporadas.
